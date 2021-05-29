@@ -315,7 +315,7 @@ trump_tweets.geo <- trump_tweets %>%
   filter(is.na(lat) == FALSE & is.na(lng) == FALSE)
 ```
 
-An important issue to note is that starting in 2019, Twitter requires users to decide whether they want to opt into allowing the company to collect geotagged information on their tweets.  Before 2019, the default was an automatic opt in.  The change is good for privacy, but not so good for social scientists interested in conducting spatial analysis of tweets.  As a result of the change, less than 10\% of tweets have geographic coordinate information. 
+An important issue to note is that Twitter requires users to decide whether they want to opt into allowing the company to collect geotagged information on their tweets.   As a result of the change, it is estimated that  1-2\% of tweets have geographic coordinate information. 
 
 
 <div style="margin-bottom:25px;">
