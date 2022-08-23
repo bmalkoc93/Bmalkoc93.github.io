@@ -19,7 +19,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Figtree">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
     <link rel="stylesheet" href="styles.css" type="text/css" />
     
@@ -40,29 +40,37 @@
     }
   </style>
 
+<style type="text/css">
+  .navbar a {
+    font-family: "Figtree", sans-serif;
+    }
+  .navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+    }
+</style>
   
 <!--Navbar-->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #4b2d60;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="bianca-index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <div class="navbar-nav">
-          <a class="nav-link" aria-current="page" href="about.html">About</a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Bianca Malkoč</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" aria-current="page" href="about.html">About Me</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="research.html">Research</a>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">Projects</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="gis.html">GIS</a></li>
-              <li><a class="dropdown-item" href="#">Data Visualization</a></li>
-              <li><a class="dropdown-item" href="art.html">Artwork</a></li>
-            </ul>
-          </li>
-        </div>
-      </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="art.html">Projects</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
 </head>
   
@@ -89,7 +97,7 @@
         }
         h4 {
           font-size: 22px;
-          font-family: 'Dosis', sans-serif;
+          font-family: 'Figtree', sans-serif;
           text-align: left;
         }
         h5 {
@@ -98,8 +106,8 @@
           text-align: left;
         }
         h6 {
-          font-size: 16px;
-          font-family: 'Dosis', sans-serif;
+          font-size: 14px;
+          font-family: 'Figtree', sans-serif;
           text-align: left;
           text-align: bottom;
         }
@@ -110,25 +118,35 @@
   <div class="row">
     <div class="col">
       <h1>ABOUT ME</h1>
-      <h4>B.A. Geography - UCLA
-        <br />
-          M.A. Geography - University of Oregon</h4> 
-    </div>
+      
+      <br />
+      <img src="/Users/biancamalkoc/Workspace/crd230fork/pictures/BiancaWall.jpg" width="75%"  align="left" alt="B">
+        
+        </div>
     <div class="col">
       <br />
-      <h5>I am a human geographer and researcher who is interested in contributing to a better understanding of the lived experiences of precarity, which Judith Butler defines as the “politically induced condition in which certain populations suffer from failing social and economic networks of support and become differentially exposed to injury, violence, and death” (2009, p. 2), among vulnerable communities in sub-Saharan Africa.
-      <br /><br />
-       I previously used quantitative methods, primarily R and Excel, to analyze soil organic carbon and nitrogen loss in the Kalahari Desert. My current research uses qualitative interviewing, thematic coding, and a compilation of academic articles, policy briefs, and news sources to understand how the livelihoods of an informal community in Accra, Ghana have been impacted by the frequent demolitions of their dwellings.
+      <h4>&nbsp&nbsp&nbsp<a target="_blank" href="/Users/biancamalkoc/Workspace/crd230fork/Documents/BMalkoc-Resume-2022.pdf">✎ Resume </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank" href="https://www.linkedin.com/in/biancanmalkoc/">⌕ LinkedIn </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank" href="https://www.instagram.com/biancamalkoc/">✼ Instagram </a>
+      </h4>
+      <br />
+      <h5>
+        Hello, my name is Bianca (she/her)! I'm a human geographer, researcher, artist, hiker, cyclist, world traveler, Croatian-American, Los Angeles native, and cat-lover.
         <br /><br />
-       <h6><em>Butler, J. 2009. “Performativity, Precarity and Sexual Politics.” AIBR.</em></h6>
-        <br />
-     </h5>
+        In my work and research, I am interested in developing a deeper understanding of the difficulties that vulnerable and under-resourced communities face. I do this by conducting interviews, participant observation, and other methods in qualitative research. Understanding precarity, which is defined as the “politically induced condition in which certain populations suffer from failing social and economic networks of support and become differentially exposed to injury, violence, and death” (Butler, 2009, p. 2), is foundational to contributing to this knowledge. 
+        <br /><br />
+        I am skilled in both quantitative and qualitative research methods and conducting fieldwork in sub-Saharan Africa. My goal is to continue contributing to work, research or otherwise, that aims to make real-world impacts.
+        <br /><br />
+        Govorim hrvatski jezik, pozdravi me!
+      </h5>
+      <br /><br />
+      <h6>
+        <em>Butler, J. 2009. “Performativity, Precarity and Sexual Politics.” AIBR.</em>
+      </h6>
     </div>
     <div class="col-1"></div>
    </div>
   </div>
 </div>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<h6><center>Website created and maintained by Bianca Malkoc © 2022</center></h6>
   </body>
   </html>
