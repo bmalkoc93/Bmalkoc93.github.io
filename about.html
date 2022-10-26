@@ -45,21 +45,23 @@
     font-family: "Figtree", sans-serif;
     }
   .navbar-nav > li{
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 10px;
     }
 </style>
+
   
 <!--Navbar-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #4b2d60;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: none;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Bianca Malkoc</a>
+    <a class="navbar-brand" href="index.html"><h4>Bianca Malkoc | MA Geography</h4></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span></button>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="about.html">About</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="research.html">Research</a>
@@ -96,14 +98,15 @@
           text-align: left;
         }
         h4 {
-          font-size: 22px;
+          font-size: 20px;
           font-family: 'Figtree', sans-serif;
           text-align: left;
         }
         h5 {
           font-size: 18px;
-          font-family: 'Dosis', sans-serif;
+          font-family: 'Figtree', sans-serif;
           text-align: left;
+          color: #000000;
         }
         h6 {
           font-size: 12px;
@@ -113,34 +116,26 @@
         }
         </style>
 
-<br /><br /><br /><br />
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <h1>ABOUT ME</h1>
-      
-      <br />
-      <img src="pictures/BiancaWall.jpg" width="75%"  align="left" alt="B">
-        
+<!--Carousel-->
+<style>
+  .carousel-caption {
+    top: 100px;
+    bottom: auto;
+    left: 90px;
+  }</style>
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="30000">
+          <img class="d-block w-100" src="pictures/28056624_Unknown.JPG">
+          <div class="carousel-caption d-none d-md-block">
+          <h5 style="line-height:1.5em;">
+            I am a geographer and political ecologist as well as an artist, Croatian-American, and Los Angeles native. 
+            <br /><br />
+            As a researcher, I am interested in developing a deeper understanding of the exposure to harm that vulnerable communities unequally face as a result of resource extraction and land grabs. Understanding precarity is foundational to contributing to this knowledge. 
+            <br /><br />
+            <a href="documents/BMalkoc_CV2022.pdf">Curriculum Vitae</a>
+          </h5>
         </div>
-    <div class="col">
-      <br />
-      <br />
-      <h5>
-        I am a human geographer, artist, hiker, cyclist, Croatian-American, Los Angeles native, and cat-lover. I am skilled in both quantitative and qualitative research methods and conducting fieldwork in sub-Saharan Africa. My goal is to contribute to work that aims to make real-world impacts.
-        <br /><br />
-        In my work and research, I am interested in developing a deeper understanding of the difficulties that vulnerable and under-resourced communities face. I do this by conducting interviews, participant observation, and other methods in qualitative research. Understanding precarity, which is defined as the “politically induced condition in which certain populations suffer from failing social and economic networks of support and become differentially exposed to injury, violence, and death” (Butler, 2009, p. 2), is foundational to contributing to this knowledge. 
-        <br /><br />
-        Govorim hrvatski jezik, pozdravi me!
-      </h5>
-      <br /><br /><br /><br /><br />
-      <h6>
-        <em>Butler, J. 2009. “Performativity, Precarity and Sexual Politics.” AIBR.</em>
-      </h6>
-    </div>
-    <div class="col-1"></div>
-   </div>
   </div>
-</div>
   </body>
   </html>
